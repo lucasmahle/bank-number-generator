@@ -1,0 +1,33 @@
+.modal-header,
+.modal-body,
+.modal-footer {
+    color: #000;
+    border: none;
+}
+
+.number-ticket {
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #e9e377;
+    font-size: 1.7rem;
+    position: relative;
+    border-bottom: 2px dashed #000;
+
+    .value,
+    .type {
+        font-weight: bold;
+    }
+
+    .value {
+        margin-bottom: 15px;
+    }
+
+    .description {
+        position: absolute;
+        bottom: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+}

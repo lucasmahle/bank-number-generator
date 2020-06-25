@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="alert alert-info text-center">
+        Bem vindo Gerente!
+    </div>
+    <div class="box-container">
+        <div class="box-title">Senha atual:</div>
+        <pp-current-number></pp-current-number>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="box-container">
+                <div class="box-title">Ações:</div>
+                <button class="btn btn-giant" (click)="generateNumber()" type="button">Próximo Número</button>
+                <button class="btn btn-giant" (click)="resetNumberGeneration()" type="button">Reiniciar</button>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="box-container">
+                <div class="box-title">Últimas senhas:</div>
+                <pp-latest-numbers></pp-latest-numbers>
+            </div>
+        </div>
+    </div>
+</div>

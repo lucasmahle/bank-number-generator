@@ -1,0 +1,32 @@
+@import "bootstrap.scss";
+
+.btn-giant {
+    @extend .btn-secondary;
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.client-mode {
+    background-color: $primary;
+    color: #fff;
+}
+
+body {
+    padding: 50px;
+}
+
+.box-container {
+    border: 2px solid $secondary;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 30px;
+
+    .box-title {
+        font-size: 1.8rem;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+}

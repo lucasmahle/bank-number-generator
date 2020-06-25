@@ -1,0 +1,23 @@
+<div class="container">
+
+    <div class="box-container">
+        <div class="box-title">Senha atual:</div>
+        <pp-current-number></pp-current-number>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="box-container">
+                <div class="box-title">Gerar senha:</div>
+                <button class="btn btn-giant" (click)="generateNormalNumber()" type="button">Normal</button>
+                <button class="btn btn-giant" (click)="generatePreferentialNumber()" type="button">Preferencial</button>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="box-container">
+                <div class="box-title">Últimas senhas:</div>
+                <pp-latest-numbers></pp-latest-numbers>
+            </div>
+        </div>
+    </div>
+</div>

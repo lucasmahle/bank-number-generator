@@ -1,0 +1,26 @@
+<div class="modal-header">
+    <h4 class="modal-title pull-left">Guarde sua senha</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="bsModalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class="modal-body">
+    <div class="number-ticket">
+        Senha:
+        <div class="value">
+            {{ formatted }}
+        </div>
+
+        Tipo:
+        <div class="type">
+            {{typeDescription}}
+        </div>
+
+        <div class="description">
+            Aguarde ser chamado
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary" (click)="bsModalRef.hide()">{{closeBtnName}}</button>
+</div>
